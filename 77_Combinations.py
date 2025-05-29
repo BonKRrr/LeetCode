@@ -10,6 +10,7 @@ class Solution:
                 backtracking(combinations, pick, i + 1, n, k) 
                 pick.pop()
 
+
         combinations = []
         pick = []
         backtracking(combinations, pick, 1, n, k)
