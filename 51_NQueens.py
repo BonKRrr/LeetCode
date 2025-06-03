@@ -20,7 +20,9 @@ class Solution:
         solutions = []
         board = [["." for _ in range(n)] for _ in range(n)]
         column = [False] * n
+
         ldiag = [False] * (2 * n - 1)
         rdiag = [False] * (2 * n - 1)
+        
         backtracking(solutions, board, column, ldiag, rdiag, 0)
         return solutions
