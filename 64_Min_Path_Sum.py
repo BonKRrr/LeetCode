@@ -2,6 +2,7 @@ class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
         dp = [[0 for _ in range(n)] for _ in range(m)]
+        
         for i in range(m):
             for j in range(n):
                 if i == j == 0:
