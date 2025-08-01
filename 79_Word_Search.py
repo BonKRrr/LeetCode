@@ -15,8 +15,6 @@ class Solution:
             visited[i][j] = False 
             return False
 
-
-
         m, n = len(board), len(board[0])
         visited = [[False for _ in range(n)] for _ in range(m)]
         return any([
