@@ -2,6 +2,7 @@ class Solution:
     def maxProduct(self, words: List[str]) -> int:
         cache = dict()
         max_prod = 0
+        
         for word in words:
             mask, w_len = 0, len(word)
 
