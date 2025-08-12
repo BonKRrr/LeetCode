@@ -3,8 +3,10 @@ class Solution:
         l, r = 0, len(nums) - 1
         while l <= r:
             mid = (l + r) // 2
+
             if nums[mid] == target:
                 return True
+            
             if nums[mid] == nums[l]:
 
                 l += 1
