@@ -9,9 +9,11 @@ class Solution:
         gl = len(g)
         count = 0
 
+        
+
         while (si < sl and gi < gl):
             if s[si] >= g[gi]:
                 gi += 1
             si += 1
-            
+
         return gi
