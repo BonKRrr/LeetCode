@@ -19,7 +19,3 @@ class Solution:
             node = node.next
         return pick
 
-
-# Your Solution object will be instantiated and called as such:
-# obj = Solution(head)
-# param_1 = obj.getRandom()
