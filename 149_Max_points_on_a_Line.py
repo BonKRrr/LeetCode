@@ -19,4 +19,5 @@ class Solution:
 
             for count in cache.values():
                 max_count = max(max_count, same_xy + count)
+                
         return max_count
