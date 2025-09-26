@@ -10,4 +10,5 @@ class Solution:
                 removed += 1
             else:
                 prev_end = intervals[i][1]
+                
         return removed
